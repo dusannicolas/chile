@@ -90,6 +90,6 @@ function mostrarDato(region){
     //Actuali<ar datos del card
     document.getElementById('nombre-region').textContent = datoRegion.nombre;
     document.getElementById('atractivos-turisticos').textContent = datoRegion.atractivos;
-    document.getElementById('image-region').src = datoRegion.imagen;
+    document.getElementById('imagen-region').src = datoRegion.imagen;
     document.getElementById('tarjeta').style.display = '';
 }
