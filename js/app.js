@@ -83,7 +83,7 @@ const regiones = [
 
 function mostrarDato(region){
     //Buscar objeto
-    const datoregion = regiones.find(r => r.nombre === region);
+    const datoRegion = regiones.find(r => r.nombre === region);
     if(!datoRegion){
         return;
     }
@@ -91,5 +91,5 @@ function mostrarDato(region){
     document.getElementById('nombre-region').textContent = datoRegion.nombre;
     document.getElementById('atractivos-turisticos').textContent = datoRegion.atractivos;
     document.getElementById('image-region').src = datoRegion.imagen;
-
+    document.getElementById('tarjeta').style.display = '';
 }
